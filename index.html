@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="syle.css">
     <title>calculator</title>
 </head>
+
 <body>
-    
-    
+    <form>
+        <input type="text"id ="calc" disabled><br>
+
+        <button onclick="tori(9)">9</button>
+        <button onclick="tori('8')">8</button>
+        <button onclick="tori('7')">7</button>
+        <button onclick="tori('=')">+</button><br>
+        <button onclick="tori('6')">6</button>
+        <button onclick="tori('5')">5</button>
+        <button onclick="tori('4')">4</button>
+        <button onclick="tori('-')">-</button><br>
+        <button onclick="tori('2')">2</button>
+        <button onclick="tori('1')">1</button>
+        <button onclick="tori('0')">0</button>
+        <button onclick="tori('/')">÷</button><br>
+        <button onclick="toriClear()">c</button>
+        <button onclick="tori('.')">.</button>
+        <button onclick="tori('**')">^</button>
+        <button onclick="tori('*')">˟</button><br>
+        <button onclick="tori('i')">i</button>
+        <button onclick="tori('(')">(</button>
+        <button onclick="tori(')')">)</button>
+        <button onclick="toriResults('=')">=</button>
+        <button onclick="tori('B')">B</button>
+        <button  onclick="squareRoot()">√</button>
+
+
+    </form>
+    <script src="index.js"></script>
+
+
 </body>
+
 </html>

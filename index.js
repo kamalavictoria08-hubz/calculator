@@ -15,3 +15,7 @@ function squareRoot(){
     const variabo = document.getElementById('calc');
     variabo.value = Math.sqrt(eval(variabo.value));
 }
+function BackSpace(){
+    const toriShow = document.getElementById('calc');
+    toriShow.value = toriShow.value.slice(0, -1);
+}
